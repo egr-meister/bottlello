@@ -37,8 +37,8 @@ yarn-error.*
 *.tsbuildinfo
 
 # generated native folders
+# (android/ is committed on purpose: it contains the release signing config)
 /ios
-/android
 
 # Keystores and signing secrets — never commit
 *.p12
